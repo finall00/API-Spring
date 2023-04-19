@@ -17,7 +17,7 @@ public class Cliente {
     @Column(nullable = false)
     private String nome;
 
-    // Ficaria assim sem o lombok
+   
     public Long getId() {
         return id;
     }
